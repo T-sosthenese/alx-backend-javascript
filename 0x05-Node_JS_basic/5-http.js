@@ -71,7 +71,7 @@ const SERVER_ROUTE_HANDLERS = [
 
       res.setHeader('Content-Type', 'text/plain');
       res.setHeader('Content-Length', responseText.length);
-      res.statusCde = 200;
+      res.statusCode = 200;
       res.write(Buffer.from(responseText));
     },
   },
