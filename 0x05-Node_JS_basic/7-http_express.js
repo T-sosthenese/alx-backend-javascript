@@ -68,7 +68,7 @@ app.get('/', (_, res) => {
 });
 
 app.get('/students', (_, res) => {
-  const responseParts = ['This is the list of students'];
+  const responseParts = ['This is the list of our students'];
 
   countStudents(DB_FILE)
     .then((report) => {
